@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import logo from './images/11111.jpg';
 import './App.css';
 import ReactEcharts from 'echarts-for-react'
+import {Button} from 'antd'
 
 export default class App extends Component {
   constructor(props) {
@@ -74,7 +75,10 @@ export default class App extends Component {
             </ul>
           </div>
           <p>antd官网: https://ant.design/components/button-cn/</p>
-          <div></div>
+          <div>
+            {/* 使用antd组件中的按钮 */}
+            <Button>点击</Button>
+          </div>
           <div></div>
           <div></div>
           <div></div>
